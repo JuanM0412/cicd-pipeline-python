@@ -1,3 +1,7 @@
+"""
+Módulo que proporciona funciones para operaciones matemáticas básicas.
+"""
+
 # IMPORTANTE: Reemplaza con tu nombre completo (debe coincidir con el nombre
 # que uses en cualquier otro identificador del proyecto.
 # Sugerencia: Usuario de correo de EAFIT)
