@@ -1,4 +1,4 @@
-AUTOR = "???"  # IMPORTANTE: Reemplaza con tu nombre completo (debe coincidir con el nombre que uses en cualquier otro identificador del proyecto. Sugerencia: Usuario de correo de EAFIT)
+AUTOR = "jmgomezp, mahoyosv, asjimenezm"  # IMPORTANTE: Reemplaza con tu nombre completo (debe coincidir con el nombre que uses en cualquier otro identificador del proyecto. Sugerencia: Usuario de correo de EAFIT)
 
 
 def sumar(a, b):
