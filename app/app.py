@@ -1,6 +1,7 @@
 """
 Módulo principal de la aplicación web Flask para la calculadora.
 """
+
 from flask import Flask, render_template, request
 from .calculadora import sumar, restar, multiplicar, dividir
 
@@ -40,9 +41,4 @@ def index():
 
 if __name__ == "__main__":
     # Quita debug=True para producción
-    app.run(
-        debug=True,
-        port=5000,
-        host="0.0.0.0"
-    )
-
+    app.run(debug=True, port=5000, host="0.0.0.0")
