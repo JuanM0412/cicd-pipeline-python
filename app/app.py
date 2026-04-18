@@ -39,6 +39,10 @@ def index():
     return render_template("index.html", resultado=resultado)
 
 
-if __name__ == "__main__":
-    # Quita debug=True para producción
-    app.run(debug=True, port=5000, host="0.0.0.0")
+if __name__ == "__main__":  # pragma: no cover
+    # Levanta la aplicación Flask en modo debug, escuchando en todas las interfaces de red en el puerto 5000.
+    app.run(
+        debug=True,
+        port=5000,
+        host="0.0.0.0"
+    )
