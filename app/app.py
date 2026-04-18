@@ -40,5 +40,5 @@ def index():
 
 
 if __name__ == "__main__":  # pragma: no cover
-    # Levanta la aplicación Flask en modo debug, escuchando en todas las interfaces de red en el puerto 5000.
+    # Quitar debug=True en producción
     app.run(debug=True, port=5000, host="0.0.0.0")
