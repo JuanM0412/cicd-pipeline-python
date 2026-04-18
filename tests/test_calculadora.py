@@ -1,5 +1,6 @@
 # tests/test_calculadora.py
 import pytest
+import math
 from app.calculadora import sumar, restar, multiplicar, dividir
 
 def test_sumar():
@@ -18,7 +19,7 @@ def test_multiplicar():
     assert multiplicar(0, 10) == 0
 
 def test_dividir():
-    assert dividir(10, 2) == 5.0
-    assert dividir(5, -1) == -5.0
+    assert math.isclose(dividir(10, 2), 5.0, rel_tol=1e-09, abs_tol=1e-09)
+    assert math.isclose(dividir(5, -1), -5.0, rel_tol=1e-09, abs_tol=1e-09)
     with pytest.raises(ZeroDivisionError):
         dividir(1, 0)
